@@ -1,0 +1,13 @@
+div.logo {
+    margin: 100px 500px 100px 500px;
+    padding-left: 121px;
+    background-color: aqua;
+}
+
+section {
+    background-color: palevioletred;
+}
+
+footer {
+    background-color: yellow;
+}
