@@ -10,21 +10,21 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar">
-           <div class="already-sign">
-                <span>Already have an Intuit account?</span>
-                <a href="">I forgot my user ID or Password</a>
-            </div>
-            <div class="sign-now">
-             <button>   button sign in </button>
-            </div>
+        <div class="already-sign">
+            <span>Already have an Intuit account?</span>
+            <a href="">I forgot my user ID or Password</a>
+        </div>
+        <div class="sign-now">
+            <button> button sign in </button>
+        </div>
     </nav>
     <header>
         <div class="logo">INTUIT</div>
 
     </header>
-   
+
 
     <section class="main-section">
         <div class="top">
@@ -32,18 +32,23 @@
             <a href="" class="top_buttons">2</a>
             <a href="" class="top_buttons">3</a>
         </div>
-        <form action="">
-            <div class="form-group">
-                <label for="">Email or user ID</label>
-                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                <small id="emailHelpId" class="form-text text-muted"></small>
-            </div>
-        </form>
-        <div class="form-group">
-            <label for="">Password</label>
-            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-            <small id="emailHelpId" class="form-text text-muted"></small>
+        <div class="container">
+            <h1> Login </h1>
+
+            <form class='form'>
+                <label for="email"> Email adress <br>
+                    <input type='email' placeholder="enter email" id="email"></label>
+                <label for="phone">
+                    Phone (Recommended) <br>
+                    <input type="tel" name="phone" id="phone">
+                </label>
+                <label for="password">password <label>
+                        <input type='password' placeholder="enter name" id="password">
+
+            </form>
+
         </div>
+
         <form action="/action_page.php">
             <input type="checkbox" name="" value="">Remember ME<br>
             <div><button class="submit">sign_in</button></div>
