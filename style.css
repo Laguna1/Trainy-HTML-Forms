@@ -1,6 +1,20 @@
 body {
     height: 100%;
 }
+.wrapper.all {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    justify-content: flex-end;
+ } 
+ /*
+.container-navigation {
+        float: right;
+    }
+*/
 div.logo {
     height: 10%;
     justify-content: center;
@@ -10,13 +24,13 @@ div.logo {
 }
 section {
     height: 80%;
-    display: flex;
+  /*  display: flex; */
     justify-content: center;
     background-color: palevioletred;
 
 }
 .main-section {
-    display: flex;
+ /*   display: flex; */
     justify-content: center;
     border: 2px solid green;
     background-color: rgb(0, 255, 115);
