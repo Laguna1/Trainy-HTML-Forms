@@ -8,6 +8,7 @@ body {
     align-items: center;
 }
 nav {
+    display: flex;
     justify-content: flex-end;
  } 
  /*
