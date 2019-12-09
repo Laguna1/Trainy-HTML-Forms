@@ -1,6 +1,10 @@
 body {
     height: 100%;
 }
+ .already-sign {
+    flex-direction: column;
+    display: flex;
+ }
 div.logo {
     height: 10%;
     justify-content: center;
