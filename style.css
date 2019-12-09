@@ -30,15 +30,15 @@ section {
 }
 
 .main-section {
-    display: flex;
+   /* display: flex; */
     justify-content: center;
     border: 2px solid green;
-    background-color: rgb(156, 45, 123);
+    background-color: rgb(222, 232, 235);
 }
 
 footer {
     height: 10%;
-    background-color: rgb(114, 4, 204);
+    background-color: lightgrey;
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 
 label {
     margin-bottom: 1em;
-    font-weight:
+    font-weight: 2em;
 }
 
 input,
