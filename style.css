@@ -30,7 +30,7 @@ section {
 }
 
 .main-section {
-   /* display: flex; */
+    /* display: flex; */
     justify-content: center;
     border: 2px solid green;
     background-color: rgb(222, 232, 235);
@@ -51,7 +51,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(90deg, grey, purple);
-    height: 20em;
+    height: 40em;
 }
 
 .form {
@@ -69,8 +69,21 @@ input,
 textarea {
     display: block;
     margin: 0 auto;
-    border-radius: 2em;
+  /*  border-radius: 2em; */
     text-align: center;
     margin-bottom: 1em;
 
+}
+
+form label {
+    color: greenyellow;
+}
+
+form span {
+    color: pink;
+    font-size: 10px;
+}
+
+a {
+    color: hotpink;
 }
