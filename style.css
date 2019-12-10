@@ -69,7 +69,7 @@ input,
 textarea {
     display: block;
     margin: 0 auto;
-  /*  border-radius: 2em; */
+    /*  border-radius: 2em; */
     text-align: center;
     margin-bottom: 1em;
 
@@ -87,3 +87,54 @@ form span {
 a {
     color: hotpink;
 }
+
+/*#padlock-image-input {
+    width: 18px;
+    position: relative;
+    top: -23px;
+    left: 283px;
+} */
+
+.padlock-closed-image-input {
+    width: 12.59px;
+    height: 15.75px;
+}
+
+.submit-button {
+    color: white;
+    background-color: #0077c5;
+    font-size: 19px;
+    width: 98%;
+    margin: 0 3px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+/*
+#sign-in-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 293px;
+    height: 36px;
+    float: right;
+    background-color: transparent;
+}
+
+#sign-in-caption-container {
+    line-height: 19px;
+    flex: 1.4;
+    font-size: 12px;
+    width: 170px;
+    background-color: transparent;
+}
+
+#sign-in-button-container {
+    flex: 0.75;
+}
+
+#sign-in-button {
+    padding: 5px 0;
+} */
