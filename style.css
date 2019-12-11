@@ -7,6 +7,10 @@ nav {
     padding: 10px 30px;
     background-color: greenyellow;
 }
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .already-sign {
     flex-direction: column;
@@ -18,7 +22,12 @@ div.logo {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: aqua;
+   /* background-color: aqua; */
+}
+.top-service {
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
 }
 
 section {
@@ -47,10 +56,10 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
-    background-image: linear-gradient(90deg, grey, purple);
+    background-image: linear-gradient(200deg, lightgrey, grey);
     height: 40em;
 }
 

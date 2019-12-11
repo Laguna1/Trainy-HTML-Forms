@@ -10,31 +10,36 @@
 </head>
 
 <body>
-
+    <header>
     <nav class="navbar">
         <div class="already-sign">
             <span>Already have an Intuit account?</span>
             <a href="">I forgot my user ID or Password</a>
         </div>
         <div class="sign-now">
-            <button> button sign in </button>
-        </div>
+            
+        <button class="submit-button" id="sign-in-button">
+            <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png"
+                alt="padlock" class="padlock-closed-image-input">
+            Sign in
+        </button>
     </nav>
-    <header>
-        <div class="logo">INTUIT</div>
+    <div class="logo"><img src="img/intuit.png" alt="INTUIT">
+    </div>
+    <div class="top-service">
+        <a href="https://www.mint.com/" target="_blank" class="top_icons"><img src="img/mint.png" alt="mint"></a>
+        <a href="https://quickbooks.intuit.com/" target="_blank" class="top_icons"><img src="img/quickbooks.png" alt="quickbooks"></a>
+        <a href="https://turbotax.intuit.com/" target="_blank" class="top_icons"><img src="img/turbotax.png" alt="turbotax"></a>
+    </div>
 
     </header>
 
 
     <section class="main-section">
-        <div class="top">
-            <a href="https://www.mint.com/" target="_blank" class="top_buttons">1</a>
-            <a href="https://quickbooks.intuit.com/" target="_blank" class="top_buttons">2</a>
-            <a href="https://turbotax.intuit.com/" target="_blank" class="top_buttons">3</a>
-        </div>
+      
         <div class="container">
             <h1>Create an Intuit account </h1>
-            One account for everything Intuit.<br>
+            One account for everything Intuit, including Mint.<br>
             <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" type=hyperlink
                 target="_blank">Learn
                 more</a>
@@ -48,15 +53,15 @@
                 <span>Standard call, messaging or data rates may apply.</span>
                 <label for="password">password </label>
                 <input type="password" placeholder="Don't reuse an old password" id="password">
-
+                <button type="submit" class="submit-button">
+                    <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png"
+                        alt="padlock" class="padlock-closed-image-input">
+                    Create account
+                </button>
             </form>
 
             <div id="sign-in-button-container">
-                <button class="submit-button" id="sign-in-button">
-                    <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png"
-                        alt="padlock" class="padlock-closed-image-input">
-                    Sign in
-                </button>
+               
             </div>
             <div>
                 <a href="">Terms</a>
@@ -75,23 +80,19 @@
 
 
 
-        <footer>
-            <button type="submit" class="submit-button">
-                <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png"
-                    alt="padlock" class="padlock-closed-image-input">
-                Create account
-            </button>
-            <a href="">Legal</a>
-            <a href="">Privacy</a>
-            <a href="">Security</a>
-            © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
-            registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </footer>
+        
 
     </section>
 
-
+    <footer>
+           
+        <a href="">Legal</a>
+        <a href="">Privacy</a>
+        <a href="">Security</a>
+        © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+        registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.
+    </footer>
 </body>
 
 </html>
