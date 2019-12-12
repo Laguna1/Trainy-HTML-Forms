@@ -9,8 +9,9 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-  }
-/* end of reset code */ 
+}
+
+/* end of reset code */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@
     font: inherit;
     vertical-align: baseline;
 }
+
 body {
     height: 100%;
     background-color: rgb(222, 232, 235);
@@ -32,8 +34,9 @@ header {
 nav {
     float: none;
     padding: 10px 30px;
- /*   background-color: greenyellow; */
+    /*   background-color: greenyellow; */
 }
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -49,8 +52,9 @@ div.logo {
     justify-content: center;
     align-items: center;
     display: flex;
-   /* background-color: aqua; */
+    /* background-color: aqua; */
 }
+
 .top-service {
     display: flex;
     justify-content: center;
@@ -83,7 +87,7 @@ footer {
 body {
     background: black;
     font-family: Roboto, sans-serif;
- /*   color: white;  */
+    /*   color: white;  */
 }
 
 .container {
@@ -91,9 +95,10 @@ body {
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(200deg, lightgrey, grey);
-    height: 28em;   
-    border: 2px solid grey;
+    height: 28em;
+    /* border: 2px solid grey;*/
     border-radius: 4px;
+    background-color: white;
 
 }
 
@@ -116,12 +121,13 @@ label {
 input,
 textarea {
     display: block;
-   
+    border: 1px solid gray;
     border-radius: 2px;
     text-align: left;
     margin-bottom: 25px;
 
 }
+
 .info {
     display: block;
     font-size: 15px;
@@ -135,9 +141,10 @@ form span {
 }
 
 a {
-    color:#0077c5;
+    color: #0077c5;
     text-decoration: none;
 }
+
 .text1 {
     font-family: Roboto, sans-serif, italic;
 }
