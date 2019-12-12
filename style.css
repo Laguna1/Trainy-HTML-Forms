@@ -90,7 +90,10 @@ body {
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(200deg, lightgrey, grey);
-    height: 40em;
+    height: 28em;   
+    border: 2px solid grey;
+    border-radius: 4px;
+
 }
 
 .form {
@@ -100,31 +103,39 @@ body {
 }
 
 label {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1em;
     font-weight: 2em;
+    width: -webkit-fill-available;
+    height: 34px;
+    margin: 20px 7px;
 }
 
 input,
 textarea {
     display: block;
-    margin: 0 auto;
-    /*  border-radius: 2em; */
-    text-align: center;
-    margin-bottom: 1em;
+   
+    border-radius: 2px;
+    text-align: left;
+    margin-bottom: 25px;
 
 }
-
-form label {
-    color: greenyellow;
+.info {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
 }
+
 
 form span {
-    color: pink;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 a {
-    color: hotpink;
+    color:#0077c5;
+    text-decoration: none;
 }
 
 /*#padlock-image-input {
@@ -142,10 +153,10 @@ a {
 .submit-button {
     color: white;
     background-color: #0077c5;
+    border: 1px solid gray;
     font-size: 19px;
     width: 98%;
     margin: 0 3px;
-    border: 1px solid;
     border-radius: 4px;
     padding: 10px 0;
 }
@@ -177,6 +188,7 @@ a {
 #sign-in-button {
     padding: 5px 0;
 } */
+
 .capcha {
     border-top: 1px solid black;
 }
