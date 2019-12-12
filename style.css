@@ -82,6 +82,7 @@ footer {
 
 body {
     background: black;
+    font-family: Roboto, sans-serif;
  /*   color: white;  */
 }
 
@@ -136,6 +137,9 @@ form span {
 a {
     color:#0077c5;
     text-decoration: none;
+}
+.text1 {
+    font-family: Roboto, sans-serif, italic;
 }
 
 /*#padlock-image-input {
