@@ -47,6 +47,16 @@ nav {
     display: flex;
 }
 
+.sign {
+    font-size: xx-small;
+ }
+ 
+ .sign-now
+       {
+        padding-left: -1px;
+        padding-right: 20px;
+    }
+
 div.logo {
     height: 10%;
     justify-content: center;
@@ -88,18 +98,25 @@ body {
     width: 30%;
     margin: 0 auto;
     text-align: center;
-    /* background-image: linear-gradient(200deg, lightgrey, grey); */
-    height: 28em;
-    /* border: 2px solid grey;*/
+    border: 2px solid lightgray;
     border-radius: 4px;
     background-color: white;
-
 }
+
+.innuit-title {
+    font-size: large;
+}
+
+.innuit-title1 {
+    font-size: x-small;
+}
+
 
 .form {
     /* margin-top: 4em;*/
     display: flex;
     flex-direction: column;
+    padding: 27px 39px;
 }
 
 label {
@@ -109,7 +126,11 @@ label {
     font-weight: 2em;
     width: -webkit-fill-available;
     height: 34px;
-    margin: 20px 7px;
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+ 
 }
 
 input,
@@ -126,17 +147,22 @@ textarea {
     display: block;
     font-size: 15px;
     text-align: left;
-
+    
 }
-
+.phone1 {
+    text-align: left;
+    font-size: xx-small;
+}
 
 form span {
     font-size: 13px;
 }
 
+
 a {
     color: #0077c5;
     text-decoration: none;
+    font-size: xx-small;
 }
 
 .italic {
@@ -167,7 +193,7 @@ a {
     border: 1px solid gray;
     font-size: 19px;
     width: 98%;
-    margin: 0 3px;
+    margin: 0px 20px;
     border-radius: 4px;
     padding: 10px 0;
 }
@@ -205,6 +231,8 @@ a {
     font-size: 10px;
     color: #8d9096;
     padding-top: 21px;
+    padding-bottom: 26px;
+    background-color: rgb(222, 232, 235);
 }
 
 footer {
@@ -217,6 +245,10 @@ footer {
     font-size: 12px;
     text-align: center;
     padding-top: 26px;
+}
+ 
+div.footer1>a {
+    color: #505050;
 }
 
 .footer2 {
