@@ -213,19 +213,17 @@ a {
 
 .capcha {
   justify-content: center;
-  display: flex;
+  padding: 26px 32px 32px 32px;
+  flex-wrap: nowrap;
   font-size: 10px;
   color: #8d9096;
   background-color: rgb(222, 232, 235);
-  /* width: 34%; */
-  /* margin: 14px 111px -30px;*/
-  /*padding: 15px;*/
   text-align: center;
   width: 99%;
   flex-direction: column;
   margin: 1px 1px -30px -30px;
-  padding: 32px;
-}
+ }
+ 
 div.capcha {
   background-color: rgb(222, 232, 235);
 }
