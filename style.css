@@ -3,176 +3,169 @@
    License: none (public domain)
 */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* end of reset code */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 body {
-    height: 100%;
-    background-color: rgb(222, 232, 235);
+  height: 100%;
+  background-color: rgb(222, 232, 235);
 }
 
-
 header {
-    background-color: rgb(222, 232, 235);
+  background-color: rgb(222, 232, 235);
 }
 
 nav {
-    float: none;
-    padding: 10px 30px;
-    /*   background-color: greenyellow; */
+  float: none;
+  padding: 10px 30px;
+  /*   background-color: greenyellow; */
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .already-sign {
-    flex-direction: column;
-    display: flex;
+  flex-direction: column;
+  display: flex;
 }
 
 .sign {
-    font-size: xx-small;
- }
- 
- .sign-now
-       {
-        padding-left: -1px;
-        padding-right: 20px;
-    }
+  font-size: xx-small;
+}
+
+.sign-now {
+  padding-left: -1px;
+  padding-right: 20px;
+}
 
 div.logo {
-    height: 10%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    /* background-color: aqua; */
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-color: aqua; */
 }
 
 .top-service {
-    display: flex;
-    justify-content: center;
-    margin-top: 11px;
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
 }
 
 section {
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    background-color: palevioletred;
-
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: palevioletred;
 }
 
 .main-section {
-    /* display: flex; */
-    justify-content: center;
+  /* display: flex; */
+  justify-content: center;
 
-    background-color: rgb(222, 232, 235);
+  background-color: rgb(222, 232, 235);
 }
 
-
-
 body {
-    background: black;
-    font-family: Roboto, sans-serif;
-    /*   color: white;  */
+  background: black;
+  font-family: Roboto, sans-serif;
+  /*   color: white;  */
 }
 
 .container {
-    width: 30%;
-    margin: 0 auto;
-    text-align: center;
-    border: 2px solid lightgray;
-    border-radius: 4px;
-    background-color: white;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 31px;
 }
 
 .innuit-title {
-    font-size: large;
+  font-size: large;
 }
 
 .innuit-title1 {
-    font-size: x-small;
+  font-size: x-small;
 }
 
-
 .form {
-    /* margin-top: 4em;*/
-    display: flex;
-    flex-direction: column;
-    padding: 27px 39px;
+  /* margin-top: 4em;*/
+  display: flex;
+  flex-direction: column;
+  padding: 27px 39px;
 }
 
 label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-    font-weight: 2em;
-    width: -webkit-fill-available;
-    height: 34px;
-    font-weight: 400;
-    color: #404040;
-    font-size: 14px;
-    line-height: 25px;
- 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  font-weight: 2em;
+  width: -webkit-fill-available;
+  /*height: 34px;*/
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 input,
 textarea {
-    display: block;
-    border: 1px solid gray;
-    border-radius: 2px;
-    text-align: left;
-    margin-bottom: 25px;
-
+  display: block;
+  border: 1px solid gray;
+  border-radius: 2px;
+  text-align: left;
+  margin-bottom: 25px;
 }
 
 .info {
-    display: block;
-    font-size: 15px;
-    text-align: left;
-    
+  display: block;
+  font-size: 15px;
+  text-align: left;
 }
 .phone1 {
-    text-align: left;
-    font-size: xx-small;
+  text-align: left;
+  font-size: xx-small;
 }
 
 form span {
-    font-size: 13px;
+  font-size: 13px;
 }
 
-
 a {
-    color: #0077c5;
-    text-decoration: none;
-    font-size: xx-small;
+  color: #0077c5;
+  text-decoration: none;
+  font-size: xx-small;
 }
 
 .italic {
-    font-style: italic;
-    font-size: 12px;
-    color: #757575;
+  font-style: italic;
+  font-size: 12px;
+  color: #757575;
 }
 
 .text1 {
-    font-family: Roboto, sans-serif, italic;
+  font-family: Roboto, sans-serif, italic;
 }
 
 /*#padlock-image-input {
@@ -183,19 +176,19 @@ a {
 } */
 
 .padlock-closed-image-input {
-    width: 12.59px;
-    height: 15.75px;
+  width: 12.59px;
+  height: 15.75px;
 }
 
 .submit-button {
-    color: white;
-    background-color: #0077c5;
-    border: 1px solid gray;
-    font-size: 19px;
-    width: 98%;
-    margin: 0px 20px;
-    border-radius: 4px;
-    padding: 10px 0;
+  color: white;
+  background-color: #0077c5;
+  border: 1px solid gray;
+  font-size: 19px;
+  width: 98%;
+  margin: 0px 20px;
+  border-radius: 4px;
+  padding: 10px 0;
 }
 
 /*
@@ -227,31 +220,31 @@ a {
 } */
 
 .capcha {
-    border-top: 1px solid gray;
-    font-size: 10px;
-    color: #8d9096;
-    padding-top: 21px;
-    padding-bottom: 26px;
-    background-color: rgb(222, 232, 235);
+  border-top: 1px solid gray;
+  font-size: 10px;
+  color: #8d9096;
+  padding-top: 21px;
+  padding-bottom: 26px;
+  background-color: rgb(222, 232, 235);
 }
 
 footer {
-    height: 10%;
-    background-color: rgb(222, 232, 235);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #505050;
-    font-size: 12px;
-    text-align: center;
-    padding-top: 26px;
+  height: 10%;
+  background-color: rgb(222, 232, 235);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #505050;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 26px;
 }
- 
-div.footer1>a {
-    color: #505050;
+
+div.footer1 > a {
+  color: #505050;
 }
 
 .footer2 {
-    line-height: 1.5;
-    font-size: 12px;
+  line-height: 1.5;
+  font-size: 12px;
 }
