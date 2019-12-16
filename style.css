@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
@@ -22,6 +21,7 @@ nav {
 .already-sign {
   flex-direction: column;
   display: flex;
+  padding-top: 10px;
 }
 
 .sign {
@@ -29,7 +29,7 @@ nav {
 }
 
 .sign-now {
-  padding-left: 0px;
+  padding-left: 20px;
   padding-right: 20px;
 }
 
@@ -140,7 +140,6 @@ a {
   font-family: Roboto, sans-serif, italic;
 }
 
-
 .padlock-closed-image-input {
   width: 12.59px;
   height: 15.75px;
@@ -166,8 +165,8 @@ a {
   width: 99%;
   flex-direction: column;
   margin: 1px 1px -30px -30px;
- }
- 
+}
+
 div.capcha {
   background-color: #eceef1;
 }
