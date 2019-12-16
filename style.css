@@ -1,25 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* end of reset code */
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,7 +12,6 @@ header {
 nav {
   float: none;
   padding: 10px 30px;
-  /*   background-color: greenyellow; */
 }
 
 .navbar {
@@ -61,7 +38,6 @@ div.logo {
   justify-content: center;
   align-items: center;
   display: flex;
-  /* background-color: aqua; */
 }
 
 .top-service {
@@ -137,7 +113,8 @@ textarea {
   text-align: left;
 }
 .phone1 {
-  text-align: left;
+  padding-bottom: 20px;
+  text-align: center;
   font-size: xx-small;
 }
 
@@ -162,12 +139,6 @@ a {
   font-family: Roboto, sans-serif, italic;
 }
 
-/*#padlock-image-input {
-    width: 18px;
-    position: relative;
-    top: -23px;
-    left: 283px;
-} */
 
 .padlock-closed-image-input {
   width: 12.59px;
@@ -182,34 +153,6 @@ a {
   border-radius: 4px;
   padding: 10px 0;
 }
-
-/*
-#sign-in-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 293px;
-    height: 36px;
-    float: right;
-    background-color: transparent;
-}
-
-#sign-in-caption-container {
-    line-height: 19px;
-    flex: 1.4;
-    font-size: 12px;
-    width: 170px;
-    background-color: transparent;
-}
-
-#sign-in-button-container {
-    flex: 0.75;
-}
-
-#sign-in-button {
-    padding: 5px 0;
-} */
 
 .capcha {
   justify-content: center;
