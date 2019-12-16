@@ -4,15 +4,15 @@ Second collaborative project
 *  HTML
 *  CSS
 ***
- ![Example]()
+ ![Example](https://github.com/Laguna1/Trainy-HTML-Forms/blob/html/img/Screen.png)
 
 ### Live Demo  
- [TRAINY-HTML-FORMS]()
+ [HTML-FORMS](https://laguna1.github.io/Trainy-HTML-Forms/)
 ***
 
 
 ### Autors
- -Github:[]()
+ - Github:[Sheyla Pozo](https://github.com/sheylaPozo)
  - Linkedin: []()
 
  - Github:[@Laguna1](https://github.com/Laguna1)
