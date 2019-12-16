@@ -2,11 +2,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
-  background-color: rgb(222, 232, 235);
+  background: #eceef1;
 }
 
 header {
-  background-color: rgb(222, 232, 235);
+  background: #eceef1;
 }
 
 nav {
@@ -57,11 +57,11 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(222, 232, 235);
+  background-color: #eceef1;
 }
 
 .container {
-  width: 30%;
+  width: 26%;
   margin: 0 auto;
   text-align: center;
   border: 1px solid lightgray;
@@ -105,6 +105,7 @@ textarea {
   border-radius: 2px;
   text-align: left;
   margin-bottom: 25px;
+  height: 27px;
 }
 
 .info {
@@ -160,7 +161,7 @@ a {
   flex-wrap: nowrap;
   font-size: 10px;
   color: #8d9096;
-  background-color: rgb(222, 232, 235);
+  background-color: #eceef1;
   text-align: center;
   width: 99%;
   flex-direction: column;
@@ -168,12 +169,12 @@ a {
  }
  
 div.capcha {
-  background-color: rgb(222, 232, 235);
+  background-color: #eceef1;
 }
 
 footer {
   height: 10%;
-  background-color: rgb(222, 232, 235);
+  background-color: #eceef1;
   display: flex;
   flex-direction: column;
   text-align: center;
