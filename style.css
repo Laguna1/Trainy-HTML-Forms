@@ -4,6 +4,10 @@ body {
   background: #eceef1;
 }
 
+h2, h3 {
+  display: none;
+}
+
 header {
   background: #eceef1;
 }
