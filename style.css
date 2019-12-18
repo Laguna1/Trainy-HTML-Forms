@@ -4,7 +4,8 @@ body {
   background: #eceef1;
 }
 
-h2, h3 {
+h2, 
+h3 {
   display: none;
 }
 
@@ -55,8 +56,7 @@ section {
   display: flex;
   height: 80%;
   justify-content: center;
-  
-}
+  }
 
 .main-section {
   display: flex;
@@ -117,6 +117,7 @@ textarea {
   font-size: 15px;
   text-align: left;
 }
+
 .phone1 {
   padding-bottom: 20px;
   text-align: center;
