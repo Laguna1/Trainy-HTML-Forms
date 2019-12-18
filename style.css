@@ -97,7 +97,6 @@ label {
   margin-bottom: 1em;
   font-weight: 400;
   width: -webkit-fill-available;
-  font-weight: 400;
   color: #404040;
   font-size: 14px;
   line-height: 25px;
@@ -184,11 +183,10 @@ footer {
   text-align: center;
   color: #505050;
   font-size: 12px;
-  text-align: center;
   padding: 20px 0;
 }
 
-div.footer1 > a {
+.footer1 {
   color: #505050;
 }
 
