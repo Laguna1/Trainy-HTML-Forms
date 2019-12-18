@@ -34,7 +34,7 @@ nav {
 
 .sign-now {
   padding-left: 10px;
- }
+}
 
 div.logo {
   height: 10%;
@@ -46,7 +46,6 @@ div.logo {
 .top-service {
   display: flex;
   justify-content: center;
-  /* margin-top: 11px; */
 }
 
 section {
@@ -86,13 +85,13 @@ section {
 .form {
   display: flex;
   flex-direction: column;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: 5px;
   font-weight: 400;
   width: -webkit-fill-available;
   color: #404040;
@@ -152,11 +151,7 @@ a {
   color: white;
   background-color: #0077c5;
   border: 1px solid gray;
-<<<<<<< HEAD
   font-size: 15px;
-=======
-  font-size: 17px;
->>>>>>> cd8c145d757204b1e7fff1ad46b205791bb5b059
   border-radius: 4px;
   padding: 4px 0;
 }
