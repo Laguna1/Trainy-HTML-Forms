@@ -15,7 +15,7 @@ header {
 
 nav {
   float: none;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 
 .navbar {
@@ -26,7 +26,6 @@ nav {
 .already-sign {
   flex-direction: column;
   display: flex;
-  padding-top: 10px;
 }
 
 .sign {
@@ -48,7 +47,7 @@ div.logo {
 .top-service {
   display: flex;
   justify-content: center;
-  margin-top: 11px;
+  /* margin-top: 11px; */
 }
 
 section {
@@ -184,7 +183,7 @@ footer {
   text-align: center;
   color: #505050;
   font-size: 12px;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer1 {
